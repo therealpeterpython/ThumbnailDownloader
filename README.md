@@ -6,6 +6,6 @@ Note: For a full overview of the parameters of `download()` and `download_one()`
 ```python
 import thumbnail_downloader as td
 
-path = tf.download_one("google logo")  # relative path to the image file
+path = td.download_one("google logo")  # relative path to the image file
 print(path)
 ```
